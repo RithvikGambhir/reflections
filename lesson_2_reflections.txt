@@ -11,7 +11,7 @@ change?
 Add files (depending the logical change made) to staging area first, then make the commit.
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
-
+Answer: Like the tutorial mentioned, making experimental changes is the best reason I can think of.
 
 How do the diagrams help you visualize the branch structure?
 
