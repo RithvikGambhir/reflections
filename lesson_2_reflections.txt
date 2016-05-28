@@ -6,14 +6,14 @@ Answer: Acts a medium in between the two letting users add files to this space a
 
 What value do you think it offers?
 
-How can you use the staging area to make sure you have one commit per logical
-change?
-Add files (depending the logical change made) to staging area first, then make the commit.
+How can you use the staging area to make sure you have one commit per logical change?
+Answer: Add files (depending the logical change made) to staging area first, then make the commit.
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 Answer: Like the tutorial mentioned, making experimental changes is the best reason I can think of.
 
 How do the diagrams help you visualize the branch structure?
+Answer: Tells us what is reachable from a current branch and at which points new branches were created. Using log can make this possible.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
