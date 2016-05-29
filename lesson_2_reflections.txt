@@ -15,7 +15,7 @@ Answer: Like the tutorial mentioned, making experimental changes is the best rea
 How do the diagrams help you visualize the branch structure?
 Answer: Tells us what is reachable from a current branch and at which points new branches were created. Using log can make this possible.
 
-What is the result of merging two branches together? Why do we represent it in
-the diagram the way we do?
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Answer: Merges the logical changes (additions and deletions) in both branches and makes it a commit of the branch that is currently checked out. Running git log --graph --oneline master after the merge shows the merge in the way it was shown in class. It makes it easier to keep track of a commit and it's parents.
 
 What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges manually?
