@@ -19,3 +19,4 @@ What is the result of merging two branches together? Why do we represent it in t
 Answer: Merges the logical changes (additions and deletions) in both branches and makes it a commit of the branch that is currently checked out. Running git log --graph --oneline master after the merge shows the merge in the way it was shown in class. It makes it easier to keep track of a commit and it's parents.
 
 What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges manually?
+Answer: Git trying to merge two versions of a automatically can cause errors and bugs if there are logical changes to the same part of the code. It makes more sense if git automatically merges commits that make changes to independent parts of the program. Conflicts are posed when the above logical changes in the code happens at which time it is up to the user to manually make the required changes.
