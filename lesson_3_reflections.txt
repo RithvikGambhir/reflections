@@ -6,5 +6,8 @@ Answer: While developing an application by modifying open source code from GitHu
 
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
 Fork acts only between two GitHub repositories. It's a way to copy contents from online repositories into your GitHub repository. You can now make changes to your own copy. The presence of fork also means that you are at least "citing" the original author. Remote is created automatically.
-Clone works on any two repositories local or remote.
+Answer: Clone works on any two repositories local or remote.
 Branches operate on repositories. Used to make experimental changes or to work on a particular feature without disturbing the "master" or production code.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+Answer: To know if we are up-to-date or how far ahead or behind we are (locally) compared to the last known remote. Going back online we can see if we are diverging from the remote as well. 
