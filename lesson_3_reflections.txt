@@ -11,3 +11,9 @@ Branches operate on repositories. Used to make experimental changes or to work o
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 Answer: To know if we are up-to-date or how far ahead or behind we are (locally) compared to the last known remote. Going back online we can see if we are diverging from the remote as well. 
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Answer: It would be harder to make merges. Working without branches would mean one would have multiple copies of a file when changes are made. Having a common cloud copy also makes things easier.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+Answer: When there is a complete new feature or if I'm working on an experimental piece, I would want a new branch so as to not make any changes in master. The process of merging becomes "slightly more complex" or rather indirect but it is intuitive considering you won't be the only one working on a large project. In this case having multiple people work and merge into master or take another branch to update some feature in their branch makes more sense.
