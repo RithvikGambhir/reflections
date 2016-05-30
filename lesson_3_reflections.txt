@@ -3,3 +3,8 @@ Answer: Seems like a useful way to collaborate. Useful as a backup of all work.
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 Answer: While developing an application by modifying open source code from GitHub, you might not always want the new changes to the actual source code. Another situation is that the new code can cause bugs in your application. The best way IMO to handle this is for Git to notify the user if there was any change in the remote and have the user/developer go over the changes manually and see if they're required for their project.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Fork acts only between two GitHub repositories. It's a way to copy contents from online repositories into your GitHub repository. You can now make changes to your own copy. The presence of fork also means that you are at least "citing" the original author. Remote is created automatically.
+Clone works on any two repositories local or remote.
+Branches operate on repositories. Used to make experimental changes or to work on a particular feature without disturbing the "master" or production code.
